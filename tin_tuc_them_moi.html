@@ -1,0 +1,74 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thêm mới tin tức</title>
+</head>
+<style>
+	body{
+		background-color: #f7e9e3;
+	}
+</style>
+<body>
+	<h1>CẬP NHẬT TIN TỨC</h1>
+	
+	<hr>
+	<h2>
+		<a href="index.html">Trang chủ</a> | <a href="gioi_thieu.html">Giới thiệu</a> | <a href="tin_tuc.html">Tin tức</a> | <a href="san_pham.html">Sản phẩm</a> | <a href="lien_he.html">Liên hệ</a>
+	</h2>
+	<hr>
+
+
+	<form action="tin_tuc_cap_nhat.html" method="post">
+	<table style="padding-left: 100px;">
+		<tr>
+			<td style="width: 100px;">Tiêu đề</td>
+			<td>
+				<input type="text" name="txtTieuDe" style="width: 500px;">
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 100px;">Loại tin tức</td>
+			<td>
+				<select name="txtLoaiTinTuc" style="width: 150px;">
+					<option value="">----- Lựa chọn -----</option>
+					<option value="1">Tin nội bộ</option>
+					<option value="2">Tin khuyến mại</option>
+					<option value="3">Tin tức khác</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 100px;">Ảnh minh họa</td>
+			<td>
+				<input type="file" name="txtAnhMinhHoa" style="width: 150px;">
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 100px;">Mô tả</td>
+			<td>
+				<textarea name="txtMoTa" style="width: 500px; height: 50px;"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>Nội dung</td>
+			<td>
+				<textarea name="txtNoiDung" style="width: 500px; height: 200px;"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 100px;">Nguồn</td>
+			<td>
+				<input type="text" name="txtNguon" style="width: 150px;">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;">
+				<input type="submit" name="btnSubmit" value="Submit">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</body>
+</html>
